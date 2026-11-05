@@ -12,9 +12,9 @@ let editId = null;
 studentForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const nameValue = event.name.value.trim();
-  const mobileValue = event.mobile.value.trim();
-  const addressValue = event.address.value.trim();
+  const nameValue = name.value.trim();
+  const mobileValue = mobile.value.trim();
+  const addressValue = address.value.trim();
 
   if (nameValue === "" || mobileValue === "" || addressValue === "") {
     alert("Please enter all student details");
